@@ -1,1 +1,171 @@
-{}
+{
+    "ampari": {
+        "click": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "ampari", "string": "pickup"}
+            },
+            {
+                "command": "inventory_add",
+                "item": "ampari_item"
+            },
+            {
+                "command": "remove_object",
+                "object": "ampari"
+            }
+        ]
+    },
+    "ampari_item": {
+        "click": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "ampari_item", "string": "examine"}
+            }
+        ],
+        "puu": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "ampari_item", "string": "puu"}
+            },
+            {
+                "command": "inventory_remove",
+                "item": "ampari_item"
+            },
+            {
+                "command": "inventory_add",
+                "item": "ampari_2"
+            }
+        ]
+    },
+    "ampari_2": {
+        "click": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "ampari_2", "string": "examine"}
+            }
+
+        ],
+        "hevonen": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "ampari_2", "string": "hevonen"}
+            }
+        ]
+    },
+    "nuoli2": {
+        "click": [
+            {
+                "command": "do_transition",
+                "destination": "toinen_huone"
+            }
+        ]
+    },
+    "kivi": {
+        "click": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "kivi", "string": "examine"}
+            },
+            {
+                "command": "remove_object",
+                "object": "kivi"
+            },
+            {
+                "command": "add_object",
+                "object": "kivi_ja_avain"
+            }
+        ]
+    },
+    "kivi_ja_avain": {
+        "click": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "kivi_ja_avain", "string": "pickup"}
+            },
+            {
+                "command": "inventory_add",
+                "item": "avain"
+            },
+            {
+                "command": "remove_object",
+                "object": "kivi_ja_avain"
+            },
+            {
+                "command": "add_object",
+                "object": "kivi2"
+            }
+        ]
+    },
+    "kivi2": {
+        "click": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "kivi2", "string": "examine"}
+            }
+        ]
+    },
+    "avain": {
+        "click":[
+            {
+                "command": "monologue",
+                "textkey": {"object": "avain", "string": "examine"}
+            }
+            
+        ],
+        "Ovi_lukossa":[
+            {
+                "command": "monologue",
+                "textkey": {"object": "avain", "string": "Ovi_lukossa"}
+            },
+            {
+                "command": "inventory_remove",
+                "item": "avain"
+            },
+            {
+                "command": "remove_object",
+                "object": "Ovi_lukossa"
+            },
+            {
+                "command": "add_obect",
+                "object": "Ovi"
+            }
+            
+        ]
+
+    },
+    "Ovi":  {
+        "click": [
+            {
+                "command": "do_transition",
+                "destination": "kolmas_huone"
+            },
+            {
+                "command": "monologue",
+                "textkey":  {"object": "huone3_start", "string": "start"},
+                "timeout": 3000
+            }
+        ]
+    },
+    "nuoli": {
+        "click": [
+            {
+                "command": "do_transition",
+                "destination": "aloitushuone"
+            }
+        ]
+    },
+    "kyltti":  {
+        "click": [
+            {
+                "command": "do_transition",
+                "destination": "toinen_huone"
+            },
+            {
+                "command": "monologue",
+                "textkey":  {"object": "huone2_start", "string": "start"},
+                "timeout": 3000
+            }
+        ]
+    }
+
+}

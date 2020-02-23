@@ -4,5 +4,46 @@
     },
     "default.pickable": {
         "default": "Tätä ei voi käyttää tähän. Voisin kyllä poimia tämän mukaani."
+    },
+    "ampari_item":{
+        "examine": "Tähän ämpäriin voisin kerätä jotain syötävää hevoselle",
+        "puu": "Laitan yhden omenan ämpäriin, jotta joku voisi sen syödä"
+    },
+    "ampari":{
+        "pickup": "Otan tämän ämpärin mukaan"
+    },
+    "kivi":{
+        "examine": "Oho, kiven alla näkyy olevan jonkinlainen avain!"
+    },
+    "kivi_ja_avain": {
+        "pickup": "Otan tämän avaimen mukaan"
+    },
+    "kivi2": {
+        "examine": "Ei kiven alla ole enään mitään"
+    },
+    "avain": {
+        "examine": "Tämä avain voisi sopia johonkin lukittuun oveen",
+        "Ovi_lukossa": "Avain sopi ja se avasi tallin oven"
+    },
+    "huone3_start":{
+        "start": "Nyt olen tallin sisällä"
+    },
+    "huone2_start":{
+        "start": "Nyt olen tallin edessä"
+    },
+    "ampari_2": {
+        "examine": "Ämpärissä on yksi omena jonka joku nälkäinen voisi syödä",
+        "hevonen": "Hevonen piti omenasta ja on nyt kylläinen",
+        "kyltti": "Tuo ei auta ketään",
+        "puu": "Minulla on jo omena ämpärissä",
+        "kivi2": "Ämpäri on jo täynnä",
+        "Nuoli": "Ämpäri on jo täynnä",
+        "Ovi": "Ei omenaa voi syöttää ovelle",
+        "Nuoli2": "Nuolella mennään aikaisempaan huoneeseen ei sitä voi syöttää" 
+    },
+    "hevonen": {
+        "examine": "Se on hevonen, joka näyttää nälkäiseltä"
+    }
+    
 }
 

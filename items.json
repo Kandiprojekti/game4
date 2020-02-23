@@ -1,1 +1,29 @@
-[]
+[
+    {
+        "attrs":{
+            "category": "item",
+            "id": "ampari_item",
+            "src": "images/Ämpäri_1",
+            "visible": false
+        },
+        "className": "Image"
+    },
+    {
+        "attrs":{
+            "category": "item",
+            "id": "ampari_2",
+            "src": "images/Ämpäri_2",
+            "visible": false
+        },
+        "className": "Image"
+    },
+    {
+        "attrs":{
+            "category": "item",
+            "id": "avain",
+            "src": "images/Avain",
+            "visible": false
+        },
+        "className": "Image"
+    }
+]
