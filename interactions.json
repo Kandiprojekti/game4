@@ -35,6 +35,42 @@
                 "command": "inventory_add",
                 "item": "ampari_2"
             }
+        ],
+        "nuoli": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "ampari_item", "string": "nuoli"}
+            }
+        ],
+        "hevonen": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "ampari_item", "string": "hevonen"}
+            }
+        ],
+        "Ovi": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "ampari_item", "string": "Ovi"}
+            }
+        ],
+        "kivi2": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "ampari_item", "string": "kivi2"}
+            }
+        ],
+        "nuoli2": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "ampari_item", "string": "nuoli2"}
+            }
+        ],
+        "kyltti": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "ampari_item", "string": "kyltti"}
+            }
         ]
     },
     "ampari_2": {
@@ -49,6 +85,61 @@
             {
                 "command": "monologue",
                 "textkey": {"object": "ampari_2", "string": "hevonen"}
+            },
+            {
+                "command": "inventory_remove",
+                "item": "ampari_2"
+            },
+            {
+                "command": "remove_object",
+                "object": "hevonen"
+            },
+            {
+                "command": "add_object",
+                "object": "hevonen2"
+            }
+        ],
+        "nuoli": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "ampari_2", "string": "nuoli"}
+            }
+        ],
+        "puu": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "ampari_2", "string": "puu"}
+            }
+        ],
+        "nuoli2": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "ampari_2", "string": "nuoli2"}
+            }
+        ],
+        "kyltti": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "ampari_2", "string": "kyltti"}
+            }
+        ],
+        "Ovi": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "ampari_2", "string": "Ovi"}
+            }
+        ],
+        "kivi2": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "ampari_2", "string": "kivi2"}
+            }
+        ]
+    },
+    "hevonen2": {
+        "click": [
+            {
+                "command": "play_ending"
             }
         ]
     },
@@ -126,10 +217,34 @@
                 "object": "Ovi_lukossa"
             },
             {
-                "command": "add_obect",
+                "command": "add_object",
                 "object": "Ovi"
             }
             
+        ],
+        "nuoli": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "avain", "string": "nuoli"}
+            }
+        ],
+        "puu": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "avain", "string": "puu"}
+            }
+        ],
+        "kyltti": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "avain", "string": "kyltti"}
+            }
+        ],
+        "kivi2": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "avain", "string": "kivi2"}
+            }
         ]
 
     },
@@ -142,7 +257,7 @@
             {
                 "command": "monologue",
                 "textkey":  {"object": "huone3_start", "string": "start"},
-                "timeout": 3000
+                "timeout": 1000
             }
         ]
     },
@@ -163,7 +278,31 @@
             {
                 "command": "monologue",
                 "textkey":  {"object": "huone2_start", "string": "start"},
-                "timeout": 3000
+                "timeout": 1000
+            }
+        ]
+    },
+    "puu": {
+        "click": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "puu", "string": "examine"}
+            }
+        ]
+    },
+    "Ovi_lukossa": {
+        "click": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "Ovi_lukossa", "string": "examine"}
+            }
+        ]
+    },
+    "hevonen": {
+        "click": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "hevonen", "string": "examine"}
             }
         ]
     }

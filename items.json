@@ -3,7 +3,7 @@
         "attrs":{
             "category": "item",
             "id": "ampari_item",
-            "src": "images/Ämpäri_1",
+            "src": "images/Ämpäri_1.png",
             "visible": false
         },
         "className": "Image"
@@ -12,7 +12,7 @@
         "attrs":{
             "category": "item",
             "id": "ampari_2",
-            "src": "images/Ämpäri_2",
+            "src": "images/Ämpäri_2.png",
             "visible": false
         },
         "className": "Image"
@@ -21,7 +21,7 @@
         "attrs":{
             "category": "item",
             "id": "avain",
-            "src": "images/Avain",
+            "src": "images/Avain.png",
             "visible": false
         },
         "className": "Image"

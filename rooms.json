@@ -12,8 +12,8 @@
                     "attrs": {
                         "category": "room_background",
                         "height": 543,
-                        "id": "aloitushuone",
-                        "src": "images/1231.001.jpg",
+                        "id": "eka_tasutakuva",
+                        "src": "images/1231_001.jpg",
                         "width": 981,
                         "visible": true
                     },
@@ -47,7 +47,7 @@
         },
         {
             "attrs": {
-                "category": "room2",
+                "category": "room",
                 "id": "toinen_huone",
                 "start": false,
                 "visible": false
@@ -57,7 +57,7 @@
                     "attrs": {
                         "category": "room_background",
                         "height": 543,
-                        "id": "toinen_huone",
+                        "id": "toinen_taustakuva",
                         "src": "images/1232_001.jpg",
                         "width": 981,
                         "visible": true
@@ -135,7 +135,7 @@
         },
         {
             "attrs": {
-                "category": "room3",
+                "category": "room",
                 "id": "kolmas_huone",
                 "start": false,
                 "visible": false
@@ -145,8 +145,8 @@
                     "attrs": {
                         "category": "room_background",
                         "height": 543,
-                        "id": "toinen_huone",
-                        "src": "images/1233_001.jpg",
+                        "id": "kolmas_taustakuva",
+                        "src": "images/1233_002.png",
                         "width": 981,
                         "visible": true
                     },
@@ -177,11 +177,22 @@
                 {
                     "attrs": {
                         "category": "furniture",
+                        "id": "hevonen2",
+                        "src": "images/hevonen.png",
+                        "visible": true,
+                        "x": 540,
+                        "y": 45
+                    },
+                    "className": "Image"
+                },
+                {
+                    "attrs": {
+                        "category": "furniture",
                         "id": "nuoli2",
                         "src": "images/nuoli.png",
                         "visible": true,
                         "x": 1,
-                        "y": 100
+                        "y": 250
                     },
                     "className": "Image"
                 }           

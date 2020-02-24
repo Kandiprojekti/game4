@@ -5,9 +5,18 @@
     "default.pickable": {
         "default": "Tätä ei voi käyttää tähän. Voisin kyllä poimia tämän mukaani."
     },
+    "intro": {
+        "examine": "Täällä metsässä pitäisi olla talli"
+    },
     "ampari_item":{
         "examine": "Tähän ämpäriin voisin kerätä jotain syötävää hevoselle",
-        "puu": "Laitan yhden omenan ämpäriin, jotta joku voisi sen syödä"
+        "puu": "Laitan yhden omenan ämpäriin, jotta joku voisi sen syödä",
+        "nuoli2": "Ei tuossa ole mitään järkeä",
+        "Ovi": "Ovestä mennään sisään ja ulos, ei sitä voi syödä",
+        "kivi2": "En usko, että hevonen haluaa syödä kiviä",
+        "nuoli": "Ei tuossa ole mitään järkeä",
+        "kyltti": "Ei kylttiä voi ottaa mukaan",
+        "hevonen": "Ämpäri on vielä tyhjä"
     },
     "ampari":{
         "pickup": "Otan tämän ämpärin mukaan"
@@ -23,7 +32,11 @@
     },
     "avain": {
         "examine": "Tämä avain voisi sopia johonkin lukittuun oveen",
-        "Ovi_lukossa": "Avain sopi ja se avasi tallin oven"
+        "Ovi_lukossa": "Avain sopi ja se avasi tallin oven",
+        "puu": "Puussa ei näytä olevan avaimen mentävää aukkoa",
+        "kyltti": "Tuossa ei ole mitään järkeä",
+        "kivi2": "Kivessä ei ole avaimen mentävää aukkoa",
+        "nuoli": "Tuossa ei ole mitään järkeä"
     },
     "huone3_start":{
         "start": "Nyt olen tallin sisällä"
@@ -37,12 +50,18 @@
         "kyltti": "Tuo ei auta ketään",
         "puu": "Minulla on jo omena ämpärissä",
         "kivi2": "Ämpäri on jo täynnä",
-        "Nuoli": "Ämpäri on jo täynnä",
+        "nuoli": "Ämpäri on jo täynnä",
         "Ovi": "Ei omenaa voi syöttää ovelle",
-        "Nuoli2": "Nuolella mennään aikaisempaan huoneeseen ei sitä voi syöttää" 
+        "nuoli2": "Nuolella mennään aikaisempaan huoneeseen ei sitä voi syöttää" 
     },
     "hevonen": {
-        "examine": "Se on hevonen, joka näyttää nälkäiseltä"
+        "examine": "Se on hevonen, ehkä se antaa minun ratsastaa, jos syötän sille jotain"
+    },
+    "puu": {
+        "examine": "Se on omenapuu, mutta minulla ei ole nälkä"
+    },
+    "Ovi_lukossa": {
+        "examine": "Se on ovi talliin, mutta se on lukossa. Ehkä täällä on vara avain jossain"
     }
     
 }
