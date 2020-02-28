@@ -8,9 +8,13 @@
     "intro": {
         "examine": "Täällä metsässä pitäisi olla talli"
     },
+    "start_credits": {
+        "examine": "Tämän pelin on suunnitellut Steinerkoulun kahdeksanluokkalaiset"
+    },
+    
     "ampari_item":{
         "examine": "Tähän ämpäriin voisin kerätä jotain syötävää hevoselle",
-        "puu": "Laitan yhden omenan ämpäriin, jotta joku voisi sen syödä",
+        "puu": "Laitan yhden omenan ämpäriin, jotta voin syöttää sen hevoselle",
         "nuoli2": "Ei tuossa ole mitään järkeä",
         "Ovi": "Ovestä mennään sisään ja ulos, ei sitä voi syödä",
         "kivi2": "En usko, että hevonen haluaa syödä kiviä",
@@ -62,6 +66,9 @@
     },
     "Ovi_lukossa": {
         "examine": "Se on ovi talliin, mutta se on lukossa. Ehkä täällä on vara avain jossain"
+    },
+    "hevonen2": {
+        "ending": "Nyt pääsen hevosen selkään"
     }
     
 }

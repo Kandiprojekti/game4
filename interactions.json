@@ -139,7 +139,19 @@
     "hevonen2": {
         "click": [
             {
-                "command": "play_ending"
+                "command": "monologue",
+                "textkey": {"object": "hevonen2", "string": "ending"}
+            },
+            {
+                "command": "play_sequence",
+                "sequence": "outro",
+                "monologue": false,
+                "timeout": 2000
+            },
+            {
+                "command": "play_ending",
+                "ending": "end_layer",
+                "timeout": 7000
             }
         ]
     },

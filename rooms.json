@@ -179,7 +179,7 @@
                         "category": "furniture",
                         "id": "hevonen2",
                         "src": "images/hevonen.png",
-                        "visible": true,
+                        "visible": false,
                         "x": 540,
                         "y": 45
                     },
