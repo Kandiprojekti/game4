@@ -18,6 +18,14 @@
                 "do_fade": true,
                 "id": "outro0",
                 "show_time": 4000,
+                "text": {
+                    "text": "Ratsastin hevosen selässä ulos metsästä."
+                }
+            },
+            {
+                "do_fade": true,
+                "id": "outro1",
+                "show_time": 400,
                 "imageSrc": "images/end_picture.png"
             }
         ]

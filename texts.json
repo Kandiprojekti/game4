@@ -14,12 +14,12 @@
     
     "ampari_item":{
         "examine": "Tähän ämpäriin voisin kerätä jotain syötävää hevoselle.",
-        "puu": "Laitan yhden omenan ämpäriin, jotta voin syöttää sen hevoselle.",
+        "puu": "Poimin omanapuusta yhden omenan ja laitan sen ämpäriin.",
         "nuoli2": "Ei tuossa ole mitään järkeä.",
-        "Ovi": "Ovestä mennään sisään ja ulos, ei sitä voi syödä.",
+        "Ovi": "En usko, että ovi mahtuu ämpäriin.",
         "kivi2": "En usko, että hevonen haluaa syödä kiviä.",
         "nuoli": "Ei tuossa ole mitään järkeä.",
-        "kyltti": "Ei kylttiä voi ottaa mukaan.",
+        "kyltti": "Ei kylttiä mahdu ämpäriin.",
         "hevonen": "Ämpäri on vielä tyhjä."
     },
     "ampari":{
@@ -37,9 +37,9 @@
     "avain": {
         "examine": "Tämä avain voisi sopia johonkin lukittuun oveen.",
         "Ovi_lukossa": "Avain sopi ja se avasi tallin oven!",
-        "puu": "Puussa ei näytä olevan avaimen mentävää aukkoa.",
+        "puu": "Puussa ei näytä olevan avaimen mentävää reikää.",
         "kyltti": "Tuossa ei ole mitään järkeä.",
-        "kivi2": "Kivessä ei ole avaimen mentävää aukkoa.",
+        "kivi2": "Kivessä ei ole avaimen mentävää reikää.",
         "nuoli": "Tuossa ei ole mitään järkeä."
     },
     "huone3_start":{
@@ -49,8 +49,8 @@
         "start": "Nyt olen tallin edessä!"
     },
     "ampari_2": {
-        "examine": "Ämpärissä on yksi omena, jonka voin syöttää hevoselle.",
-        "hevonen": "Hevonen piti omenasta ja on nyt kylläinen. Ehkä se antaa minun ratsastaa.",
+        "examine": "Ämpärissä on yksi omena.",
+        "hevonen": "Hevonen piti omenasta ja on nyt iloinen. Ehkä se antaa minun nyt ratsastaa.",
         "kyltti": "Tuo ei auta ketään.",
         "puu": "Minulla on jo omena ämpärissä.",
         "kivi2": "Ämpäri on jo täynnä.",
@@ -66,9 +66,6 @@
     },
     "Ovi_lukossa": {
         "examine": "Se on ovi talliin, mutta se on lukossa. Ehkä täällä on vara avain jossain."
-    },
-    "hevonen2": {
-        "ending": "Nyt pääsen hevosen selkään!"
     }
     
 }
