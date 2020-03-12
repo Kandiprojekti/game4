@@ -167,10 +167,10 @@
                     "attrs": {
                         "category": "furniture",
                         "id": "hevonen",
-                        "src": "images/hevonen.png",
+                        "src": "images/hevonen2.png",
                         "visible": true,
-                        "x": 540,
-                        "y": 45
+                        "x": 500,
+                        "y": 34
                     },
                     "className": "Image"
                 },
@@ -178,10 +178,10 @@
                     "attrs": {
                         "category": "furniture",
                         "id": "hevonen2",
-                        "src": "images/hevonen.png",
+                        "src": "images/hevonen2.png",
                         "visible": false,
-                        "x": 540,
-                        "y": 45
+                        "x": 500,
+                        "y": 34
                     },
                     "className": "Image"
                 },
